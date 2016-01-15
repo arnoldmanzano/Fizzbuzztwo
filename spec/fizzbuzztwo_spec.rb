@@ -13,4 +13,12 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 
+  it 'returns number in all other cases' do
+    expect(fizzbuzz(4)).to eq 4
+  end
+
+  it 'returns zero when passed zero' do
+    expect(fizzbuzz(0)).to eq 0
+  end
+
 end
